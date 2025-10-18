@@ -1,0 +1,104 @@
+* {
+  text-align: center;
+}
+/* start falling egg */
+h1 {
+  color: #757575;
+}
+.btn {
+  border: none;
+  padding: 12px 30px;
+  margin-bottom: 20px;
+  background-color: #03a9f4;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.gameContainer {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #fbc02d;
+  margin: 50px auto;
+  background: #fffde7;
+  position: relative;
+  overflow: hidden;
+}
+.basket {
+  position: absolute;
+  bottom: 5px;
+}
+.basket img {
+  width: 90px;
+  height: 60px;
+}
+.egg {
+  position: absolute;
+  top: 0;
+}
+.egg img {
+  width: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.break-egg {
+  position: absolute;
+  display: none;
+}
+.break-egg img {
+  width: 60px;
+}
+/* end falling egg */
+
+/* start shooting bird */
+.birdBtn {
+  border: none;
+  padding: 12px 30px;
+  background-color: #009688;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.bird-container {
+  width: 700px;
+  height: 600px;
+  border: 1px solid #fbc02d;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+  cursor: crosshair;
+}
+.bird-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.bird-container .bird-img {
+  position: absolute;
+}
+.bird-container .bird-img img {
+  width: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 1;
+  visibility: visible;
+  z-index: 9;
+  display: block;
+}
+/* end shooting bird */
